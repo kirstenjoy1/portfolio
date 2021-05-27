@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    font-family:Didot, serif;
+    font-size:4em;
+}
+
+a{
+    color: black;
+    font-family:Didot, serif;
+    padding: 10px;
+}
+
+a:hover{
+    cursor:pointer;
+    color: palevioletred;
+}
