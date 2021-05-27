@@ -1,16 +1,78 @@
+/*Universal Styles*/
+html {
+    background-color: #1C422B;
+    color: #F3BAC3;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
 h1{
     text-align: center;
     font-family:Didot, serif;
     font-size:4em;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    font-family:Didot, serif;
+    font-size:3.5em;
+    color: black;
 }
 
 a{
-    color: black;
+    color: #F3BAC3;
     font-family:Didot, serif;
     padding: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
 }
 
 a:hover{
     cursor:pointer;
     color: palevioletred;
 }
+
+/*About Me Section*/
+
+.about-me{
+    height:250px;
+    max-width:1300px;
+    margin:auto;
+    flex-shrink:1; 
+    background-color:#F3BAC3
+}
+
+/* Projects Section*/
+.projects-container{
+max-width:1300px;
+min-width:400px;
+display:flex;
+justify-content: space-evenly;
+flex-direction: row;
+flex-wrap:wrap;
+margin:auto; 
+padding-bottom:30px;
+padding-top:50px;
+}
+
+.project img{
+    max-width:400px;
+    max-height:300px;
+    margin:20px;
+    border: 3px solid #F3BAC3;
+}
+
+
+
+
+
+
+/*Footer Styles*/
+footer{
+    text-align: center;
+}
+
+
