@@ -36,14 +36,28 @@ a:hover{
 }
 
 /*About Me Section*/
-
-.about-me{
+.about-me-container{
     height:250px;
     max-width:1300px;
     margin:auto;
     flex-shrink:1; 
-    background-color:#F3BAC3
+    background-color:#F3BAC3;
+    position: relative;
+    transform-origin: 0 0;
+    transition: all 8s;
 }
+
+.about-me-container:before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform-origin: 0 0;
+    transition: all 8s;
+  }
+
+
 
 /* Projects Section*/
 .projects-container{
